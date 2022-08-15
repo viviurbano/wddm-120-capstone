@@ -4,16 +4,25 @@
   justify-content: center;
 }
 body {
-  background-color: #f5f5f5;
   font-family: 'Roboto', sans-serif;
+  background-color: #fa8bff;
+  background-image: linear-gradient(
+    45deg,
+    #fa8bff 0%,
+    #2bd2ff 52%,
+    #2bff88 90%
+  );
+  color: #fff;
+  min-height: 100vh;
 }
 .title h1 {
-  color: #603b3b;
+  background-color: #4453b7;
+  color: #fff;
   text-align: center;
-  margin: 40px 0;
-
-  font-weight: 700;
-  font-size: 40px;
+  margin: 40px;
+  padding: 10px;
+  font-size: 45px;
+  border: thick double #32a1ce;
 }
 form {
   max-width: 500px;
@@ -121,8 +130,20 @@ form input {
   .task {
     margin-right: 0px;
   }
+
+  .btnFlex {
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+  }
 }
 input:focus,
 button:focus {
   outline: none;
+}
+.btnFlex {
+  display: flex;
+  overflow: auto;
+  height: 50px;
+  padding: 5px;
 }

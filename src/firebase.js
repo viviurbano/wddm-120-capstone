@@ -2,8 +2,8 @@ import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: '${process.env.REACT_APP_API_KEY}',
-  authDomain: '${process.env.REACT_APP_AUTH_DOMAIN}',
+  apiKey: `${process.env.REACT_APP_API_KEY}`,
+  authDomain: `${process.env.REACT_APP_AUTH_DOMAIN}`,
   projectId: 'wddm-120-capstone',
   storageBucket: 'wddm-120-capstone.appspot.com',
   messagingSenderId: '1082082141260',

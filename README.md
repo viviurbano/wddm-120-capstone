@@ -33,7 +33,7 @@ My project is called "ToDo App", since it has the purpose to manage a list of ta
 
 Below is a single screen shot with the main page of the app, when is enable to insert a new ToDo task.
 
-![This is an image](img/small.png)
+![This is an image](src/img/small.png)
 
 ## 3️⃣ Technologies Used
 
